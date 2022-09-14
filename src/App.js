@@ -117,7 +117,7 @@ const App = () => {
           <View style={[styles.welcomeSubtitleWrap, isPortrait ? { height: 'auto', marginHorizontal: 24 } : null]}>
             <Text style={[styles.welcomeSubtitle, isPortrait ? { fontSize: 24 } : null]}>Автономная некоммерческая организация по поддержке стратегических<br />инициатив «Индустрия будущего».</Text>
           </View>
-          <TouchableOpacity accessibilityRole='link' href='https://wa.me/79245602978' target='_blank' style={[styles.welcomeButtonView, isPortrait ? { width: 'auto', marginHorizontal: 24, height: 46, borderRadius: 23 } : null]}>
+          <TouchableOpacity accessibilityRole='link' href='https://wa.me/79854353593' target='_blank' style={[styles.welcomeButtonView, isPortrait ? { width: 'auto', marginHorizontal: 24, height: 46, borderRadius: 23 } : null]}>
             <Text style={[styles.welcomeButtonText, isPortrait ? { fontSize: 18, marginHorizontal: 24 } : null]}>Обсудить проект</Text>
           </TouchableOpacity>
         </View>

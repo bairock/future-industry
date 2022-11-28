@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { View, Text, TouchableOpacity, Image, StyleSheet, useWindowDimensions } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, useWindowDimensions } from 'react-native'
 import { useMediaQuery } from 'react-responsive'
 
 import Header from './Components/Header'
@@ -183,6 +183,5 @@ const styles = StyleSheet.create({
     marginRight: 24,
   },
 })
-
 
 export default App;

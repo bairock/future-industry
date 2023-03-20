@@ -49,10 +49,10 @@ const App = () => {
       <View ref={main} style={styles.container}>
         <View style={[styles.welcomeView, { height }]}>
           <View style={[styles.welcomeTitleWrap, isPortrait ? { height: 'auto', marginHorizontal: 24 } : null]}>
-            <Text style={[styles.welcomeTitle, isPortrait ? { fontSize: 48 } : null]}>«Индустрия будущего»</Text>
+            <Text style={[styles.welcomeTitle, isPortrait ? { fontSize: 48 } : null]}>ИНДУСТРИЯ БУДУЩЕГО</Text>
           </View>
           <View style={[styles.welcomeSubtitleWrap, isPortrait ? { height: 'auto', marginHorizontal: 24 } : null]}>
-            <Text style={[styles.welcomeSubtitle, isPortrait ? { fontSize: 24 } : null]}>Автономная некоммерческая организация по поддержке стратегических<br />инициатив «Индустрия будущего».</Text>
+            <Text style={[styles.welcomeSubtitle, isPortrait ? { fontSize: 20 } : null]}>Автономная некоммерческая организация по поддержке стратегических инициатив<br />«Индустрия будущего»</Text>
           </View>
           <TouchableOpacity accessibilityRole='link' href='https://wa.me/79854353593' target='_blank' style={[styles.welcomeButtonView, isPortrait ? { width: 'auto', marginHorizontal: 24, height: 46, borderRadius: 23 } : null]}>
             <Text style={[styles.welcomeButtonText, isPortrait ? { fontSize: 18, marginHorizontal: 24 } : null]}>Обсудить проект</Text>
@@ -60,29 +60,25 @@ const App = () => {
         </View>
         <View ref={about} style={[styles.blockView, isPortrait ? { marginBottom: 72 } : null]}>
           <VerticalLine text='О нас' />
-          <View>
+          <View style={{ paddingBottom: 80 }}>
             <View style={styles.titleWrap}>
-              <Text style={styles.title}>Миссия</Text>
+              <Text style={styles.title}>Миссия:</Text>
             </View>
-            <HorizontalLine width={isPortrait ? width - 50 : 300} />
-            <Text style={[styles.missionText, isPortrait ? { maxWidth: width - 50, marginRight: 0, fontSize: 20 } : null]}>Мы содействуем обществу в переходе на новый технологический<br />уклад жизни.</Text>
+            <Text style={[styles.missionText, isPortrait ? { maxWidth: width - 50, marginRight: 0, fontSize: 20 } : null]}>Мы содействуем обществу в переходе на новый уклад жизни</Text>
             <View style={styles.titleWrap}>
               <Text style={styles.title}>Об организации:</Text>
             </View>
-            <HorizontalLine width={isPortrait ? width - 50 : 300} />
             <Text style={[styles.missionText, isPortrait ? { maxWidth: width - 50, fontSize: 20 } : null]}>{missionText}</Text>
             <View style={styles.titleWrap}>
               <Text style={styles.title}>Направления деятельности:</Text>
             </View>
-            <HorizontalLine width={isPortrait ? width - 50 : 300} />
             <View style={[styles.directionsView, isPortrait ? { flexDirection: 'column' } : null]}>
               <View>
                 <Text style={[styles.directionText, isPortrait ? { fontSize: 18, maxWidth: width - 50, marginRight: 0 } : null]}> •  Развитие территорий</Text>
                 <Text style={[styles.directionText, isPortrait ? { fontSize: 18, maxWidth: width - 50, marginRight: 0 } : null]}> •  Развитие сообществ</Text>
-                <Text style={[styles.directionText, isPortrait ? { fontSize: 18, maxWidth: width - 50, marginRight: 0 } : null]}> •  Создание пространст для развития территорий</Text>
+                <Text style={[styles.directionText, isPortrait ? { fontSize: 18, maxWidth: width - 50, marginRight: 0 } : null]}> •  Создание пространств развития</Text>
               </View>
               <View>
-                <Text style={[styles.directionText, isPortrait ? { fontSize: 18, maxWidth: width - 50, marginRight: 0 } : null]}> •  Волонтерство</Text>
                 <Text style={[styles.directionText, isPortrait ? { fontSize: 18, maxWidth: width - 50, marginRight: 0 } : null]}> •  Социо-культурное проектирование</Text>
               </View>
             </View>

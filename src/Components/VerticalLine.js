@@ -1,12 +1,12 @@
 import { View, Text, StyleSheet } from 'react-native'
 import { useMediaQuery } from 'react-responsive'
 
-const VerticalLine = ({ text }) => {
+const VerticalLine = ({ text, style }) => {
     const isPortrait = useMediaQuery({ orientation: 'portrait' })
 
     return (
         <View style={[styles.verticalView, isPortrait ? { marginRight: 6 } : null]}>
-            <View style={styles.verticalLine} />
+            <View style={[styles.verticalLine, style]} />
             <Text tex style={[styles.verticalText, isPortrait ? { fontSize: 18 } : null]}>{text}</Text>
         </View>
     )

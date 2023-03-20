@@ -27,17 +27,17 @@ const Footer = ({ onScrollTo }) => {
                     </View>
                     <View>
                         <Text style={styles.title}>Контакты</Text>
-                        <View style={[styles.wrap, { maxWidth: isPortrait ? width / 1.5 : 'auto' }]}>
-                            <Text style={styles.menuTitle}>Республика Саха (Якутия), город Якутск, проспект Ленина 1, этаж 2</Text>
+                        <View style={[styles.wrap, { maxWidth: isPortrait ? width / 1.3 : 'auto' }]}>
                             <Text style={styles.menuSubtitle}>Адрес</Text>
+                            <Text style={styles.menuTitle}>Республика Саха (Якутия), город Якутск, проспект Ленина 1, этаж 2</Text>
                         </View>
                         <View style={styles.wrap}>
-                            <Text style={styles.menuTitle}>7 (924) 560 29 78</Text>
                             <Text style={styles.menuSubtitle}>Контактный телефон</Text>
+                            <Text style={styles.menuTitle}>8 (4112) 25 67 67</Text>
                         </View>
                         <View style={styles.wrap}>
-                            <Text style={styles.menuTitle}>anofutureindustry@gmail.com</Text>
                             <Text style={styles.menuSubtitle}>Электронная почта</Text>
+                            <Text style={styles.menuTitle}>anofutureindustry@gmail.com</Text>
                         </View>
                     </View>
                 </View>

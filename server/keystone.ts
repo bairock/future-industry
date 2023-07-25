@@ -21,7 +21,8 @@ const session = statelessSessions({
 export default withAuth(
   config({
     server: {
-      port: 4001
+      port: 4001,
+      cors: { origin: ['https://future-industry.ru', 'http://localhost:3000'], credentials: true },
     },
     graphql: {
       path: '/graphql'

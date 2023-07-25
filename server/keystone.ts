@@ -36,7 +36,7 @@ export default withAuth(
       local: {
         kind: 'local',
         type: 'image',
-        generateUrl: path => `http://localhost:4001/images${path}`,
+        generateUrl: path => `http://194.58.92.218:4001/images${path}`,
         serverRoute: {
           path: '/images',
         },

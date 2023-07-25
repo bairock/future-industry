@@ -16,7 +16,7 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// keystone.js
+// keystone.ts
 var keystone_exports = {};
 __export(keystone_exports, {
   default: () => keystone_default
@@ -26,7 +26,7 @@ var import_core2 = require("@keystone-6/core");
 var import_auth = require("@keystone-6/auth");
 var import_session = require("@keystone-6/core/session");
 
-// schema.js
+// schema.ts
 var import_core = require("@keystone-6/core");
 var import_access = require("@keystone-6/core/access");
 var import_fields = require("@keystone-6/core/fields");
@@ -70,7 +70,7 @@ var lists = {
   })
 };
 
-// keystone.js
+// keystone.ts
 var { withAuth } = (0, import_auth.createAuth)({
   listKey: "User",
   identityField: "email",

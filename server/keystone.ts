@@ -22,7 +22,7 @@ export default withAuth(
   config({
     server: {
       port: 4001,
-      cors: { origin: ['https://future-industry.ru', 'http://localhost:3000'], credentials: true },
+      cors: { origin: ['https://future-industry.ru', 'http://future-industry.ru', 'http://localhost:3000'], credentials: true },
     },
     graphql: {
       path: '/graphql'

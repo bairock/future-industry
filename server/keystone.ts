@@ -15,6 +15,7 @@ const { withAuth } = createAuth({
 
 const session = statelessSessions({
   secret: '1c1211e729984bcaa231d12f07b4195d',
+  secure: false,
 })
 
 export default withAuth(
